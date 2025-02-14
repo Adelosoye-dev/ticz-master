@@ -3,7 +3,7 @@ import "./globals.css";
 import localFont from "next/font/local";
 
 const jeju = localFont({
-  src: "./jeju.ttf",
+  src: "./Jeju.ttf",
   variable: "--font-jeju",
 });
 export const metadata: Metadata = {
