@@ -94,7 +94,9 @@ export function Ticket({ data, onReset, quantity }: TicketProps) {
                 </div>
                 <div className="space-y-1 border-b border-[#133D44] p-2">
                   <p className="text-gray-500">Enter your email *</p>
-                  <p className="font-normal text-gray-300">{data.email}</p>
+                  <p className="font-normal text-gray-300 truncate overflow-hidden whitespace-nowrap">
+                    {data.email}
+                  </p>
                 </div>
                 <div className="space-y-1 border-b md:border-r border-[#133D44] p-2">
                   <p className="text-gray-500">Ticket Type:</p>
